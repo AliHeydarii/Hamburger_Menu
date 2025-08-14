@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburger Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            width: 1080px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Hamburger_Menu">
+        <h1>Hamburger Menu</h1>
+        <p>Please click on the hamburger menu on the left to open the menu.</p>
+    </div>
+    <div class="toggle" onclick="Hamburger_Menu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="menu" onclick="List()">
+        <li>Home</li>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Familly</li>
+        <li>Tell us</li>
+    </ul>
+</body>
+<script src="script.js"></script>
+</html>
